@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD36673C1E1A15C7001C43F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36673B1E1A15C7001C43F9 /* main.m */; };
+		AD36673F1E1A15C7001C43F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36673E1E1A15C7001C43F9 /* AppDelegate.m */; };
+		AD3667421E1A15C7001C43F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3667411E1A15C7001C43F9 /* ViewController.m */; };
+		AD3667451E1A15C7001C43F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3667431E1A15C7001C43F9 /* Main.storyboard */; };
+		AD3667471E1A15C7001C43F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3667461E1A15C7001C43F9 /* Assets.xcassets */; };
+		AD36674A1E1A15C8001C43F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3667481E1A15C8001C43F9 /* LaunchScreen.storyboard */; };
+		AD3667551E1A15C8001C43F9 /* Vitamio_PlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3667541E1A15C8001C43F9 /* Vitamio_PlayerTests.m */; };
+		AD3667601E1A15C8001C43F9 /* Vitamio_PlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AD36675F1E1A15C8001C43F9 /* Vitamio_PlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD3667511E1A15C8001C43F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD36672F1E1A15C7001C43F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3667361E1A15C7001C43F9;
+			remoteInfo = "Vitamio Player";
+		};
+		AD36675C1E1A15C8001C43F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD36672F1E1A15C7001C43F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3667361E1A15C7001C43F9;
+			remoteInfo = "Vitamio Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD3667371E1A15C7001C43F9 /* Vitamio Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vitamio Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD36673B1E1A15C7001C43F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD36673D1E1A15C7001C43F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD36673E1E1A15C7001C43F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD3667401E1A15C7001C43F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AD3667411E1A15C7001C43F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD3667441E1A15C7001C43F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD3667461E1A15C7001C43F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3667491E1A15C8001C43F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD36674B1E1A15C8001C43F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3667501E1A15C8001C43F9 /* Vitamio PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vitamio PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3667541E1A15C8001C43F9 /* Vitamio_PlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vitamio_PlayerTests.m; sourceTree = "<group>"; };
+		AD3667561E1A15C8001C43F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD36675B1E1A15C8001C43F9 /* Vitamio PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vitamio PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD36675F1E1A15C8001C43F9 /* Vitamio_PlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vitamio_PlayerUITests.m; sourceTree = "<group>"; };
+		AD3667611E1A15C8001C43F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3667341E1A15C7001C43F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD36674D1E1A15C8001C43F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3667581E1A15C8001C43F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD36672E1E1A15C7001C43F9 = {
+			isa = PBXGroup;
+			children = (
+				AD3667391E1A15C7001C43F9 /* Vitamio Player */,
+				AD3667531E1A15C8001C43F9 /* Vitamio PlayerTests */,
+				AD36675E1E1A15C8001C43F9 /* Vitamio PlayerUITests */,
+				AD3667381E1A15C7001C43F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3667381E1A15C7001C43F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3667371E1A15C7001C43F9 /* Vitamio Player.app */,
+				AD3667501E1A15C8001C43F9 /* Vitamio PlayerTests.xctest */,
+				AD36675B1E1A15C8001C43F9 /* Vitamio PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3667391E1A15C7001C43F9 /* Vitamio Player */ = {
+			isa = PBXGroup;
+			children = (
+				AD36673D1E1A15C7001C43F9 /* AppDelegate.h */,
+				AD36673E1E1A15C7001C43F9 /* AppDelegate.m */,
+				AD3667401E1A15C7001C43F9 /* ViewController.h */,
+				AD3667411E1A15C7001C43F9 /* ViewController.m */,
+				AD3667431E1A15C7001C43F9 /* Main.storyboard */,
+				AD3667461E1A15C7001C43F9 /* Assets.xcassets */,
+				AD3667481E1A15C8001C43F9 /* LaunchScreen.storyboard */,
+				AD36674B1E1A15C8001C43F9 /* Info.plist */,
+				AD36673A1E1A15C7001C43F9 /* Supporting Files */,
+			);
+			path = "Vitamio Player";
+			sourceTree = "<group>";
+		};
+		AD36673A1E1A15C7001C43F9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD36673B1E1A15C7001C43F9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AD3667531E1A15C8001C43F9 /* Vitamio PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3667541E1A15C8001C43F9 /* Vitamio_PlayerTests.m */,
+				AD3667561E1A15C8001C43F9 /* Info.plist */,
+			);
+			path = "Vitamio PlayerTests";
+			sourceTree = "<group>";
+		};
+		AD36675E1E1A15C8001C43F9 /* Vitamio PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD36675F1E1A15C8001C43F9 /* Vitamio_PlayerUITests.m */,
+				AD3667611E1A15C8001C43F9 /* Info.plist */,
+			);
+			path = "Vitamio PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3667361E1A15C7001C43F9 /* Vitamio Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3667641E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio Player" */;
+			buildPhases = (
+				AD3667331E1A15C7001C43F9 /* Sources */,
+				AD3667341E1A15C7001C43F9 /* Frameworks */,
+				AD3667351E1A15C7001C43F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vitamio Player";
+			productName = "Vitamio Player";
+			productReference = AD3667371E1A15C7001C43F9 /* Vitamio Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD36674F1E1A15C8001C43F9 /* Vitamio PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3667671E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio PlayerTests" */;
+			buildPhases = (
+				AD36674C1E1A15C8001C43F9 /* Sources */,
+				AD36674D1E1A15C8001C43F9 /* Frameworks */,
+				AD36674E1E1A15C8001C43F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3667521E1A15C8001C43F9 /* PBXTargetDependency */,
+			);
+			name = "Vitamio PlayerTests";
+			productName = "Vitamio PlayerTests";
+			productReference = AD3667501E1A15C8001C43F9 /* Vitamio PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD36675A1E1A15C8001C43F9 /* Vitamio PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD36676A1E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio PlayerUITests" */;
+			buildPhases = (
+				AD3667571E1A15C8001C43F9 /* Sources */,
+				AD3667581E1A15C8001C43F9 /* Frameworks */,
+				AD3667591E1A15C8001C43F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD36675D1E1A15C8001C43F9 /* PBXTargetDependency */,
+			);
+			name = "Vitamio PlayerUITests";
+			productName = "Vitamio PlayerUITests";
+			productReference = AD36675B1E1A15C8001C43F9 /* Vitamio PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD36672F1E1A15C7001C43F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Tecksky Technologies";
+				TargetAttributes = {
+					AD3667361E1A15C7001C43F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					AD36674F1E1A15C8001C43F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD3667361E1A15C7001C43F9;
+					};
+					AD36675A1E1A15C8001C43F9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AD3667361E1A15C7001C43F9;
+					};
+				};
+			};
+			buildConfigurationList = AD3667321E1A15C7001C43F9 /* Build configuration list for PBXProject "Vitamio Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD36672E1E1A15C7001C43F9;
+			productRefGroup = AD3667381E1A15C7001C43F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3667361E1A15C7001C43F9 /* Vitamio Player */,
+				AD36674F1E1A15C8001C43F9 /* Vitamio PlayerTests */,
+				AD36675A1E1A15C8001C43F9 /* Vitamio PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3667351E1A15C7001C43F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD36674A1E1A15C8001C43F9 /* LaunchScreen.storyboard in Resources */,
+				AD3667471E1A15C7001C43F9 /* Assets.xcassets in Resources */,
+				AD3667451E1A15C7001C43F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD36674E1E1A15C8001C43F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3667591E1A15C8001C43F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3667331E1A15C7001C43F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3667421E1A15C7001C43F9 /* ViewController.m in Sources */,
+				AD36673F1E1A15C7001C43F9 /* AppDelegate.m in Sources */,
+				AD36673C1E1A15C7001C43F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD36674C1E1A15C8001C43F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3667551E1A15C8001C43F9 /* Vitamio_PlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3667571E1A15C8001C43F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3667601E1A15C8001C43F9 /* Vitamio_PlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3667521E1A15C8001C43F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3667361E1A15C7001C43F9 /* Vitamio Player */;
+			targetProxy = AD3667511E1A15C8001C43F9 /* PBXContainerItemProxy */;
+		};
+		AD36675D1E1A15C8001C43F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3667361E1A15C7001C43F9 /* Vitamio Player */;
+			targetProxy = AD36675C1E1A15C8001C43F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD3667431E1A15C7001C43F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3667441E1A15C7001C43F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD3667481E1A15C8001C43F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3667491E1A15C8001C43F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3667621E1A15C8001C43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD3667631E1A15C8001C43F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3667651E1A15C8001C43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vitamio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD3667661E1A15C8001C43F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Vitamio Player/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AD3667681E1A15C8001C43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vitamio PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vitamio Player.app/Vitamio Player";
+			};
+			name = Debug;
+		};
+		AD3667691E1A15C8001C43F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Vitamio PlayerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vitamio Player.app/Vitamio Player";
+			};
+			name = Release;
+		};
+		AD36676B1E1A15C8001C43F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vitamio PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vitamio Player";
+			};
+			name = Debug;
+		};
+		AD36676C1E1A15C8001C43F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Vitamio PlayerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tecksky.Vitamio-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Vitamio Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3667321E1A15C7001C43F9 /* Build configuration list for PBXProject "Vitamio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3667621E1A15C8001C43F9 /* Debug */,
+				AD3667631E1A15C8001C43F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3667641E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3667651E1A15C8001C43F9 /* Debug */,
+				AD3667661E1A15C8001C43F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD3667671E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3667681E1A15C8001C43F9 /* Debug */,
+				AD3667691E1A15C8001C43F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AD36676A1E1A15C8001C43F9 /* Build configuration list for PBXNativeTarget "Vitamio PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD36676B1E1A15C8001C43F9 /* Debug */,
+				AD36676C1E1A15C8001C43F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD36672F1E1A15C7001C43F9 /* Project object */;
+}
